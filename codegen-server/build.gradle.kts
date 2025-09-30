@@ -16,7 +16,6 @@ extra["moduleName"] = "software.amazon.smithy.rust.codegen.server"
 
 dependencies {
     implementation(project(":codegen-core"))
-    implementation(project(":codegen-server-traits"))
     implementation(libs.smithy.aws.traits)
     implementation(libs.smithy.protocol.test.traits)
     implementation(libs.smithy.protocol.traits)
